@@ -6,5 +6,7 @@ module top_module (
         begin 
             if(clk)
               q = d;
+             else
+              q = q;
         end
 endmodule
